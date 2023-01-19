@@ -1,8 +1,10 @@
 import { promisify } from 'util';
 
-import glob, { sync as globSync } from 'glob';
+import globPkg from 'glob';
 import fsExtra from 'fs-extra';
 import postcss from 'postcss';
+
+const { sync: globSync, glob } = globPkg;
 
 const globAsync = promisify(glob);
 const { readFile, readFileSync } = fsExtra;

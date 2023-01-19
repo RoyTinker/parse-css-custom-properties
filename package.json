@@ -1,13 +1,13 @@
 {
   "name": "parse-css-custom-properties",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse CSS Custom Properties from CSS files",
   "module": "index.js",
   "type": "module",
   "private": true,
   "author": "Saul Hardman <hello@iamsaul.co.uk>",
   "license": "MIT",
-  "repository": "saulhardman/parse-css-custom-properties",
+  "repository": "RoyTinker/parse-css-custom-properties",
   "dependencies": {
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6"
