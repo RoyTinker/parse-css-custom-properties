@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Parse CSS Custom Properties from CSS files",
   "module": "index.js",
+  "type": "module",
   "private": true,
   "author": "Saul Hardman <hello@iamsaul.co.uk>",
   "license": "MIT",
